@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(76, 75, 75);
+    color: white;
+}
+
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    margin: 20px 0;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 500px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+input{
+   
+    padding: 10px;
+    margin: 10px ;
+    border-radius: 5px;
+    border: none;
+}
+
+button{
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(10, 138, 61);
+    color: white;
+    cursor: pointer;
+}
